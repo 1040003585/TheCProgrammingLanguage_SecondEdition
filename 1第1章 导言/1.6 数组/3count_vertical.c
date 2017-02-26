@@ -40,3 +40,19 @@ int main()
 
 	return 0;
 }
+
+/*
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ ./a.out 
+643643657690864bbf d f   r784638564
+digits = 1 0 0 3 5 2 7 2 3 1, white space = 6, other = 6 
+         *     * * * * * * *                *          *
+               * * * * * *                  *          *
+               * *   *   *                  *          *
+                 *   *                      *          *
+                 *   *                      *          *
+                     *                      *          *
+                     *                                  
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ 
+
+
+*/

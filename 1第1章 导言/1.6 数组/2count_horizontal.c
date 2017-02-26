@@ -42,3 +42,25 @@ int main()
 
 	return 0;
 }
+
+/*
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ gcc 2count_horizontal.c 
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ ./a.out 
+346jdhfd 34 3 43]434
+34348346 d37648973 346463764234017503
+digits = 2 1 1 14 13 1 6 4 2 1, white space = 7, other = 7 
+'0': ** 2
+'1': * 1
+'2': * 1
+'3': ************** 14
+'4': ************* 13
+'5': * 1
+'6': ****** 6
+'7': **** 4
+'8': ** 2
+'9': * 1
+'w': ******* 7
+'o': ******* 7
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ 
+
+*/

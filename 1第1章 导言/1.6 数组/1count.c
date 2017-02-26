@@ -21,3 +21,10 @@ int main()
 
 	return 0;
 }
+/*
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 ���言/1.6 数组$ ./a.out 
+4876384 ffdfd fuou4364873264
+digits = 0 0 1 3 5 0 3 2 3 0, white space = 3, other = 9 
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 ���言/1.6 数组$ 
+
+*/

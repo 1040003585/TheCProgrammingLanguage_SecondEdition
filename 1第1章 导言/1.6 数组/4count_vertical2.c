@@ -47,3 +47,32 @@ int main()
 
 	return 0;
 }
+
+/*
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ gcc 4count_vertical2.c 
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ ./a.out 
+4 3 653493 7 dfdf 36354387568313540463241
+43r334h34 3 33434356178686^[979677669465      
+digits = 1 3 1 18 12 6 11 6 4 4, white space = 9, other = 7 
+               *                                        
+               *                                        
+               *                                        
+               *                                        
+               *                                        
+               *                                        
+               * *                                      
+               * *   *                                  
+               * *   *                                  
+               * *   *                      *           
+               * *   *                      *           
+               * *   *                      *          *
+               * * * * *                    *          *
+               * * * * *                    *          *
+               * * * * * * *                *          *
+           *   * * * * * * *                *          *
+           *   * * * * * * *                *          *
+         * * * * * * * * * *                *          *
+digits = 0 1 2 3 4 5 6 7 8 9, white space =' ',other = # 
+wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 导言/1.6 数组$ 
+
+*/
