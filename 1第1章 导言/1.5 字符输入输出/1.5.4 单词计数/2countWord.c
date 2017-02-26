@@ -1,16 +1,18 @@
 #include <stdio.h>
-#include <string.h>
+//#include <string.h>
 
 int main()
 {
-	int word=0;
-	char s[1000];
+	int word=0,num=100;
+	char s[num];
 
-	gets(s);
-	puts(s);
-	if(strlen(s)==0)puts("empty line");
+	fgets(s, num, stdin);
+	printf("%s",s);
+	//puts(s);//puts()本来加换行
 
-	for(int i = 0; s[i+1] != '\n'; i++)
+	//if(strlen(s)==0)puts("empty line");
+
+	for(int i = 0; s[i] != '\n'; i++)
 		if((s[i]!=' '&&s[i]!='\n'&&s[i]!='\t')&&
 		(s[i+1]==' '||s[i+1]=='\n'||s[i+1]=='\t'))
 			word++;
@@ -19,7 +21,7 @@ int main()
 
 	return 0;
 }
-/*
+/* gets不安全！！！！！
 
 wu_being@ubuntukylin64:~/GitHub/TheCProgrammingLanguage_SecondEdition/1第1章 ��
 �言/1.5 字符输入输出/1.5.4 单词计数$ gcc 2countWord.c 
