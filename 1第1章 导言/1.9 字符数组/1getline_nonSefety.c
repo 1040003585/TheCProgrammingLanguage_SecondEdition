@@ -17,7 +17,7 @@ int main()
 	while((len=getline_wu(line, MAXLINE)) > 0){
 		if(max < len){max=len;copy(line, longest);}
 	}
-	if(max > 0) printf("%s", longest);
+	if(max > 0) printf("%d:%s", max, longest);
 	return 0;
 }
 
@@ -28,10 +28,7 @@ int getline_wu(char s[], int lim){
 	
 	for(i=0; i<lim-1 && (c=getchar())!=EOF && c!='\n'; i++)
 		s[i] = c;
-	if(c=='\n'){
-		s[i] = c;
-		i++;
-	}
+	if(c=='\n') s[i++] = c;
 	s[i] = '\0';//
 	return i;
 }

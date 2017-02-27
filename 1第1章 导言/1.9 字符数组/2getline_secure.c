@@ -16,7 +16,7 @@ int main()
 	while((len=getline_wu_s(line, MAXLINE)) > 0){
 		if(max < len){max=len;copy(line, longest);}
 	}
-	if(max > 0) printf("%s", longest);
+	if(max > 0) printf("%d:%s", max, longest);
 	return 0;
 }
 
@@ -26,13 +26,13 @@ int getline_wu_s(char s[], int lim){
 	int i, c, j=0;
 	
 	for(i=0; (c=getchar())!=EOF && c!='\n'; i++)
-		if(i<lim-2){s[j] = c;j++;}
+		if(i<lim-2) s[j++] = c;
 	if(c=='\n'){
 		s[j] = c;
-		i++;j++;
+		i++; j++;
 	}
-	s[j] = '\0';//
-	return i;
+	s[j] = '\0';//j有效长度
+	return i;//i原始长度
 }
 
 /* copy函数：将from复制到to */
