@@ -1,3 +1,3 @@
 
-void push(double);
-double pop(void);
+extern void push(double);
+extern double pop(void);
