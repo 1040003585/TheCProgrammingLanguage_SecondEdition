@@ -18,3 +18,8 @@
 # 第2章 类型、运算符与表达式
 ## 2.3 常量
 
+# 4第四章 函数与程序结构
+# 5第五章 指针与数组
+# 7InputAndOutput
+## 7.3 variable argument lists
+
