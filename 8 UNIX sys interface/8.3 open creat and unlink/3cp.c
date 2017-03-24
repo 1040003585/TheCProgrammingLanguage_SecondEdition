@@ -1,8 +1,7 @@
 #include <fcntl.h>
 #include <unistd.h>
-#include <stdio.h>
 #define PERMS 0666	//owner, owner group and other can write and read
-//#define BUFSIZ 100	//stdio.h
+#define BUFSIZ 100	//stdio.h
 
 void error(char *, ...);
 
@@ -25,4 +24,19 @@ int main(int argc, char * argv[])
 			error("cp: write error on file %s", argv[2]);
 	}
 	return 0;
+}
+
+
+#include<stdio.h>
+#include<stdlib.h>//exit
+#include<stdarg.h>
+
+void error(char *fmt, ...){
+	va_list args;
+	va_start(args, fmt);
+	fprintf(stderr, "Error_WU: ");
+	vfprintf(stderr, fmt, args);
+	fprintf(stderr, "\n");
+	va_end(args);
+	exit(1);
 }
