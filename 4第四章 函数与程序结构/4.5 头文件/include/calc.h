@@ -3,5 +3,5 @@ void push(double);
 double pop(void);
 
 #ifndef M
-#define M 10
+#define M 100
 #endif
