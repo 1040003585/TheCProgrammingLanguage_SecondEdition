@@ -15,8 +15,9 @@ int max(int a,int b){
 #define cat3(a,b,c) a ## b ## c
 
 //#error a0
-#pragma sign1
-//#line pii "filename"
+#pragma message "message hello"
+#line pii "filename"
+#line 100 
 #
 
 int main()
@@ -36,7 +37,7 @@ int main()
 	printf("cat3(a,b,c): %d\n\n", cat3(1,2,3));
 
 	//系统宏定义 
-	printf("%d\n",__LINE__);puts("");
+	printf("__LINE__ %d\n",__LINE__);puts("");
 	printf("%d\n",__STDC__);puts("");
 	printf(__DATE__);puts("");
 	printf(__TIME__);puts("");
